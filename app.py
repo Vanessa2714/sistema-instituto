@@ -12,7 +12,7 @@ if "logado" not in st.session_state:
 
 def login():
     st.title("Sistema Instituto Araras")
-    st.subheader("🔐 Login")
+    st.subheader("Login")
 
     usuario = st.text_input("Usuário")
     senha = st.text_input("Senha", type="password")
